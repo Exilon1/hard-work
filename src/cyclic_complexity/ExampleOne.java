@@ -11,6 +11,7 @@ public class ExampleOne {
 
   private final Map<String, Integer> indexMap = new HashMap<>();
 
+  // ЦС = 8
   public boolean hasNecessaryColumn(Sheet sheet, String fileName, String columnName) {
     Row headerRow = sheet.getRow(0);
     if (Objects.nonNull(headerRow)) {
@@ -42,7 +43,9 @@ public class ExampleOne {
     }
   }
 
-  // Исправленный метод
+  // Исправленный метод. Применены: избавление от else, обработка в if одного условия вместо двух,
+  // убраны любые вложенности if, цикл убран из условия.
+  // ЦС = 5
   public boolean hasNecessaryColumnAfterRefactoring(Sheet sheet, String fileName,
       String columnName) {
     Row headerRow = sheet.getRow(0);
@@ -77,6 +80,8 @@ public class ExampleOne {
         fileName);
     return false;
   }
+
+
 
   private boolean checkCellExistsAndColumnNameMatch(String cellName, String columnName) {
     return columnName.equals(cellName) && indexMap.containsKey(cellName);
