@@ -60,7 +60,7 @@ public class ExampleThree {
   }
 
   // Исправленный метод. Применены: ad-hoc, убраны любые вложенности if, цикл убран из условия,
-  // обёртка для null.
+  // Option обёртка для null.
   // ЦС = 7
   private boolean requiredColumnsAfterRefactoring(Sheet sheet) {
     Row headerRow = sheet.getRow(0);
