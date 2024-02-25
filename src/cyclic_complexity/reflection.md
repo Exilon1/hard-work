@@ -1,6 +1,6 @@
-Первый метод - https://github.com/Exilon1/hard-work/blob/main/src/cyclic_complexity/ExampleOne.java
-Второй метод - https://github.com/Exilon1/hard-work/blob/main/src/cyclic_complexity/ExampleTwo.java
-Третий метод - https://github.com/Exilon1/hard-work/blob/main/src/cyclic_complexity/ExampleThree.java
+Первый метод - https://github.com/Exilon1/hard-work/blob/main/src/cyclic_complexity/ExampleOne.java  
+Второй метод - https://github.com/Exilon1/hard-work/blob/main/src/cyclic_complexity/ExampleTwo.java  
+Третий метод - https://github.com/Exilon1/hard-work/blob/main/src/cyclic_complexity/ExampleThree.java  
 
 Комментарии к методам содержат оценку цикломатической сложности и приёмы, применённые для её 
 понижения. Выводы:
